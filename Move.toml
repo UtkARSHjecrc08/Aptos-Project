@@ -1,0 +1,15 @@
+[package]
+name = "DAO-managedDeFifund"
+version = "1.0.0"
+authors = []
+
+[addresses]
+DAO = "0x269631324783525c6dd83838f531bcd99477ca7a09db2981923c0afc17c55a8"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
